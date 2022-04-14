@@ -1,15 +1,17 @@
 function Navbar(props) {
     return (
-        <div className="bg-blue-600 p-3 text-white">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-3 text-white">
             <div className="flex justify-around">
-                <div className="font-medium">Logo</div>
-                <div className="flex gap-4">
-                    <div>Overview</div>
-                    <div>Landing</div>
-                    <div>Page</div>
-                    <div>App</div>
+                <div>
+                    <div className="font-medium cursor-pointer hover:font-bold absolute">Logo</div>
                 </div>
-                <div className="">Sign in</div>
+                <div className="flex gap-4 cursor-pointer">
+                    <div className="hover:font-bold">Home</div>
+                    <div className="hover:font-bold">Product</div>
+                    <div className="hover:font-bold">Page</div>
+                    <div className="hover:font-bold">About Us</div>
+                </div>
+                <div className="cursor-pointer hover:font-bold">Sign in</div>
             </div>
         </div>
     )
