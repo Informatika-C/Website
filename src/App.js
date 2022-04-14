@@ -1,10 +1,11 @@
-// import logo from './logo.svg';
 import './App.css';
+import Navbar from './Component/Navbar';
+
 
 function App() {
   return (
     <div>
-        <div className="bg-gray-400 text-lg">NavBar</div>
+        <Navbar/>
     </div>
   );
 }
